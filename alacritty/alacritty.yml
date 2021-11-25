@@ -1,0 +1,82 @@
+# Colors (Gruvbox dark)
+colors:
+  # Default colors
+  primary:
+    # hard contrast: background = '0x1d2021'
+    background: '0x161821'
+    # soft contrast: background = '0x32302f'
+    foreground: '0xbbbdc7'
+  cursor:
+    text: '0xFEFFFF'
+    cursor: '0xc7c7c7'
+  # Normal colors
+  normal:
+    black:   '0x282828'
+    red:     '0xcc241d'
+    green:   '0x98971a'
+    yellow:  '0xd79921'
+    blue:    '0x458588'
+    magenta: '0xb16286'
+    cyan:    '0x689d6a'
+    white:   '0xa89984'
+
+  # Bright colors
+  bright:
+    black:   '0x928374'
+    red:     '0xfb4934'
+    green:   '0xb8bb26'
+    yellow:  '0xfabd2f'
+    blue:    '0x83a598'
+    magenta: '0xd3869b'
+    cyan:    '0x8ec07c'
+    white:   '0xebdbb2'
+# iceberg theme color
+# colors:
+#   primary:
+#     background: '0x161821'
+#     foreground: '0xbbbdc7'
+
+#   cursor:
+#     text: '0xFEFFFF'
+#     cursor: '0xc7c7c7'
+
+#   # Normal colors
+#   normal:
+#     black: '0x000000'
+#     red: '0xE68E8E'
+#     green: '0x83AC8E'
+#     yellow: '0xF5B78A'
+#     blue: '0x9BB8DC'
+#     magenta: '0xBAACE2'
+#     cyan: '0x00C5C7'
+#     white: '0xC7C7C7'
+
+#   # Bright colors
+#   bright:
+#     black: '0x676767'
+#     red: '0xFF6D67'
+#     green: '0x5FF967'
+#     yellow: '0xFEFB67'
+#     blue: '0x6871FF'
+#     magenta: '0xFF76FF'
+#     cyan: '0x5FFDFF'
+#     white: '0xFEFFFF'
+background_opacity: 0.95
+key_bindings:
+  - { key: V,        mods: Control, action: Paste                  }
+  - { key: C,        mods: Control, action: Copy                   }
+  - { key: C,        mods: Command, chars: "\x03"         }
+window:
+  padding:
+    x: 10
+    y: 10
+  drynamic_padding: true
+font:
+  size: 12
+  normal:
+    family: Noto Sans Mono
+    style: Regular
+  bold:
+    family: Noto Sans Mono
+  italic:
+    family: Noto Sans Mono
